@@ -1,0 +1,151 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.left-half{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.center-nav{
+    display: flex;
+    gap: 15px;
+}
+
+.navbar{
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-around;
+    height: 40px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.talk-btn{
+    border-radius: 8px;
+    border: 1px solid black;
+    padding: 8px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    transition: 600ms;
+}
+
+.talk-btn:hover{
+    background-color: black;
+    color: white;
+}
+
+.left-half1{
+    padding-top: 100px;
+    margin-left: 200px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.titles1 h1{
+    font-size: 3.2em;
+    color: rgb(25,25,25);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titles1 h3{
+    margin-top: 35px;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(140,140,140);
+}
+
+.get-started-btn{
+    width: 20%;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 8px 15px;
+    transition: 600ms;
+}
+
+.learn-btn{
+    width: 20%;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 8px 15px;
+    transition: 600ms;
+}
+
+.btns{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.get-started-btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.learn-btn:hover{
+    background-color: black;
+    color: white;
+}
+
+.section2{
+    display: flex;
+}
+
+.right-half1{
+    padding-left: 150px;
+}
+
+img {
+    border-radius: 150px;
+}
+
+.left-half2{
+    padding-top: 50px;
+    margin-left: 200px;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.titles2 h1{
+    font-size: 1.8em;
+    color: rgb(25,25,25);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titles2 h3{
+    margin-top: 35px;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(140,140,140);
+}
+
+.section3{
+    display: flex;
+}
+.right-half2{
+    padding-left: 100px;
+    display: flex;
+    gap: 50px;
+    padding-top: 50px;
+}
+.right-half2 img{
+    border: 1px solid rgba(160, 160, 160, 0.3);
+    border-radius: 0;
+}
